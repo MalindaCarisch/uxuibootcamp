@@ -19,11 +19,23 @@
   width: 150px;
   text-align: center;
   height: 50px;
-  /* Add the css property transition here! */
-
+  font-size: 100%;
+  transition: all 0.3s ease;
 }
-/* active state */
+
 .hoverMe:hover {
-  /* Add your hover state css here. */
-
+  background-color: purple;
+  width: 160px;
+  height: 55px;
+  font-size: 105%;
+  filter:drop-shadow (5px, 5px, 0px, black)
 }
+
+.hoverMe:active {
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  font-weight: 100%;
+}
+
+
